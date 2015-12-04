@@ -77,4 +77,8 @@ $(function(){
 				        $("#ghsubmitbtn").click();
 			        }
 	});
+	//On the click of submit button adding a css class
+	function loadingImg(){
+		$('#img').addClass('loadingImg');
+	}//end of loadingImg()
 });
