@@ -206,6 +206,12 @@ a:hover {
 	-moz-box-shadow: inset 0 3px 5px rgba(0,0,0,0.25);
 	box-shadow: inset 0 3px 5px rgba(0,0,0,0.25);
 }
+.floating{
+	float: left;
+}
+#clearingFloat{
+	clear:both;
+}
 /* clearfix */
 .clearfix:after { 
 	content: "."; 
