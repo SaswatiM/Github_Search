@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Github Search </title>
+		<!-- Adding external Style sheet -->
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!--Adding JQuery CDN--->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	</head>
+	<body>
+		<!-- Main body container here -->
+		 <div id="container">
+		    <h1>Welcome to GitHub</h1>
+		    <!-- Adding search Input field here -->
+		   	<div>
+			    <span style="float:left;"><input type="text" name="ghusername" id="ghusername" placeholder="Github username..."></span>
+				<span style="float:left;" id="img"></span>
+				<span style="float:left;"> <a href="#" id="ghsubmitbtn" onclick="$('#img').addClass('loadingImg')">Search</a></span>
+			</div>
+			<div style="clear:both;"></div>
+		    <div id="ghapidata" class="clearfix"></div>
+		  </div>
+	</body>
+	<!-- Adding external JS file here -->
+	<script src="script.js"></script>
+</html>
