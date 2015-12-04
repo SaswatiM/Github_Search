@@ -14,11 +14,11 @@
 		    <h1>Welcome to GitHub</h1>
 		    <!-- Adding search Input field here -->
 		   	<div>
-			    <span style="float:left;"><input type="text" name="ghusername" id="ghusername" placeholder="Github username..."></span>
-				<span style="float:left;" id="img"></span>
-				<span style="float:left;"> <a href="#" id="ghsubmitbtn" onclick="$('#img').addClass('loadingImg')">Search</a></span>
+			    <span class="floating"><input type="text" name="ghusername" id="ghusername" placeholder="Github username..."></span>
+				<span class="floating" id="img"></span>
+				<span class="floating"> <a href="#" id="ghsubmitbtn" onclick="loadingImg();">Search</a></span>
 			</div>
-			<div style="clear:both;"></div>
+			<div id="clearingFloat"></div>
 		    <div id="ghapidata" class="clearfix"></div>
 		  </div>
 	</body>
